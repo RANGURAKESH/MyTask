@@ -1,0 +1,19 @@
+<html>
+<body>
+<div>
+<form id="myform">
+<center><img src="logo.jpg"></center>
+<button onclick="handleDisplay()">Show</button>
+<button id="insert" onclick="handleInsert()">New Registration</button>
+</form>
+</div>
+<script>
+const handleDisplay=()=>{
+	document.getElementById("myform").action="retrieve.jsp";
+	}
+const handleInsert=()=>{
+	document.getElementById("myform").action="insert.html";
+	}
+</script>
+</body>
+</html>
